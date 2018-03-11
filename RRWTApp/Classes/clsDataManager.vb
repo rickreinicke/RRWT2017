@@ -79,7 +79,7 @@ Public Class clsDataManager
 
 
         MakeConnectionString = Nothing
-        'test source controlll
+        'test source controlllLLL
         'MakeConnectionString = "Data Source=tcp:USELGP2015\GP;Initial Catalog=" & sDatabase & ";Persist Security Info=True;User ID=sa;Password=S3cur!ty;MultipleActiveResultSets=True;Workstation ID=" & Login.NetworkLogin & "-" & Login.ComputerName & ";Application Name=" & GetExecutingAssembly.GetName.Name() & "-" & Login.NetworkLogin & "-" & Login.CitrixServer & "-" & Login.ComputerName
         'MakeConnectionString = "Data Source=tcp:" & sServer & ";Initial Catalog=" & sDatabase & ";Persist Security Info=True;User ID=rrwt;Password=rrwt;MultipleActiveResultSets=True;Workstation ID=" & Login.NetworkLogin & "-" & Login.ComputerName & ";Application Name=" & GetExecutingAssembly.GetName.Name() & "-" & Login.NetworkLogin & "-" & Login.CitrixServer & "-" & Login.ComputerName
         'Integrated Security = true

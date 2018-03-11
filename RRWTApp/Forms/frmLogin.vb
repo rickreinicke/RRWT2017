@@ -65,7 +65,7 @@ Public Class frmLogin
     Private Sub InstallSQLiteODBCDriver()
 
         Try
-            '#If Not Debug Then vvvvv
+            '#If Not Debug Then 
             If System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) & "\Sqliteodbc_w64.exe") Then
                 If MsgBox("SQLite ODBC Driver needs to be installed, press OK and take the defaults on the next SQLite screens.", MsgBoxStyle.OkCancel) = MsgBoxResult.Ok Then
                     Dim p As Process = Process.Start(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) & "\Sqliteodbc_w64.exe")

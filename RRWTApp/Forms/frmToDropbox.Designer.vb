@@ -70,7 +70,7 @@ Partial Class frmToDropbox
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(395, 174)
+        Me.ClientSize = New System.Drawing.Size(407, 174)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.cmbDivision)
         Me.Controls.Add(Me.Label1)

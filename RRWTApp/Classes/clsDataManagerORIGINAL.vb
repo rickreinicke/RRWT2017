@@ -41,6 +41,8 @@ Public Class clsDataManagerORIGINAL
     End Sub
 
     'Public Sub OpenDB(ByVal tmpLogin As clsLoginManager)
+    'test source control
+
     '    msDBServer = tmpLogin.DBServer
     '    msDatabase = tmpLogin.Database
     '    msNetworkLogin = tmpLogin.NetworkLogin
